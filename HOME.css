@@ -19,7 +19,7 @@
     background-color:#00FFFF;
 }
 .fon{
-	background-image: url(images/big.jpg); /* Путь к фоновому изображению */
+	background-image: url(images/big.jpg) no-repeat center / cover; /* Путь к фоновому изображению */
 }
 li{
 					display: inline-block;
