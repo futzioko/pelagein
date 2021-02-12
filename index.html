@@ -2,12 +2,41 @@
 <html>
 
     <head>
+	    <style>
+
+	img.big {
+	/* Устанавливаем правила для фона */
+	min-height: 100%;
+	min-width: 850px;
+
+	/* Маштаб изображения */
+	width: 100%;
+	height: auto;
+
+	/* Позиции фона */
+	position: fixed;
+	top: 0;
+	left: 0;
+	}
+
+	@media screen and (max-width: 850px){
+	img.big {
+	left: 49%;
+	margin-left: -511px; }
+	}
+
+		#page-wrap { position: relative; width: 800px; margin: 45px auto; padding: 15px; background: white; -moz-box-shadow: 0 0 15px black; -webkit-box-shadow: 0 0 15px black; box-shadow: 0 0 15px black; }
+		p { font: 10px/2 Arial, times new roman; margin: 0 0 25px 0; text-indent: 35px; }
+	</style>
         <link rel="stylesheet" type="text/css" href="HOME.css">
         <meta charset="UTF-8">
         <title>Автомойка у Алмаза</title>
     </head>
 
     <body>
+	<img src="images/big.jpg" class="big">
+	<div id="page-wrap">
+
         <h1 align="center">Лучшая мойка на всем диком Западе</h1>
         
         <div class ="header">
@@ -33,6 +62,7 @@
 		<h2>«Автомойка у Алмаза»&nbsp;— сеть комфортабельных круглосуточных автомоек.</h> <p>Наши ключевые принципы&nbsp;— гостеприимство, удобство и комплексный подход.<br>
 	 Уже на протяжении 20 лет мы&nbsp;улучшаем внешний вид автомобилей, сохраняем и&nbsp;восстанавливаем лакокрасочное покрытие кузова, чистим салон и&nbsp;защищаем его от&nbsp;воды и&nbsp;грязи. На&nbsp;всех автомойках используем современное оборудование и&nbsp;сертифицированные материалы. Наши мастера&nbsp;— профессионалы с&nbsp;солидным стажем работы.
 </p>
+	</div>
     </body>
         
 
