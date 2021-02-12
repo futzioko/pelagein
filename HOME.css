@@ -9,13 +9,13 @@
     height: 200px;
     text-align: center;
     vertical-align: middle;
-    background-color: #ffc;
+    background-color: #00FFFF;
 }
 .menu {
     display: inline-block;
     width: 200px;
     height: 200px;
-    background-color: #fcc;
+    background-color: #00FFFF;
 }
 </body>
 </html> 
