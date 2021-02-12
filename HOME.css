@@ -5,11 +5,11 @@
     <div class="menu"></div>
 </div>
 .header {
-    width: 300px;
+    width: 3000px;
     height: 250px;
     text-align: center;
     vertical-align: middle;
-    background-color: #000000;
+    background-color: #F4A460;
 }
 .menu {
     display: inline-block;
