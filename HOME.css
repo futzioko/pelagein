@@ -3,6 +3,7 @@
 <body>
 <div class="header">
     <div class="menu"></div>
+<img class="fon"></img>
 </div>
 .header {
     width: 3000px;
@@ -16,6 +17,9 @@
     height: 100px;
     morgin-left: 60px;
     background-color:#00FFFF;
+}
+.fon{
+	background-image: url(images/big.jpg); /* Путь к фоновому изображению */
 }
 li{
 					display: inline-block;
