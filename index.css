@@ -21,11 +21,11 @@ body {
 
 .logo {
   float: left;
-    font-size: 40pt;
+    font-size: 30pt;
 }
 nav {
   float: right;
-  font-size: 40pt;
+  font-size: 20pt;
 }
 nav ul {
   margin: 0;
