@@ -11,6 +11,11 @@ h1 {
     color: pink;
 }
 
-.imgCenter {position: absolute;
-left: 100px;
+.imgCenter {width: 100px;}
+
+.imgCenter img{
+float: left;
+margin-left: 0px 0px 0px 30px;
+width: 150px;
+height: 38px;
 }
