@@ -11,11 +11,12 @@ h1 {
     color: pink;
 }
 
-.imgCenter {width: 100px;}
+.imgCenter {width: 100px;
+display: inline-flex;}
 
 .imgCenter img{
-float: left;
-margin-left: 0px 0px 0px 30px;
-width: 150px;
-height: 38px;
+ margin: auto 5px;
+    float: left;
+    width: 150px;
+    height: 38px;
 }
