@@ -15,8 +15,8 @@ h1 {
 display: inline-flex;}
 
 .imgCenter img{
- margin: auto 500px;
+ margin: auto 2500px;
     float: left;
-    width: 150px;
-    height: 38px;
+    width: 700px;
+    height: 200px;
 }
