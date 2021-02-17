@@ -42,4 +42,13 @@ nav a {
   padding: 15px;
   margin: 0 auto;
 }
-
+/*Делим на блоки */
+.my-flex-cont {
+ display: flex;
+ height: 100px;
+}
+.my-flex-box {
+ margin: 5px;
+ padding: 5px;
+ flex: 0 1 auto;
+}
