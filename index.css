@@ -1,0 +1,44 @@
+.nazv {
+    text-align: center;
+    background-color: aqua;
+    width: 100%;
+}
+
+body {
+    background-color: azure;
+    font-family: "Gill Sans", sans-serif;
+}
+
+
+.logo {
+  float: left;
+}
+nav {
+  float: right;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+nav li {
+  display: inline-block; /*один из способов разместить элементы в строку*/
+}
+
+nav a {
+  text-decoration: overline;
+  line-height: 38px;
+}
+
+.container:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container {
+  width: 100%;
+  max-width: 1024px;
+  padding: 15px;
+  margin: 0 auto;
+}
