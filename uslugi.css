@@ -11,11 +11,4 @@ h1 {
     color: pink;
 }
 
-.impotrtant{
-display:flex;
-    justify-content: center; /*центрируем элемент по горизонтали */
-    align-items: center; /* и вертикали */
-    width: 200px; /* задали размеры блоку-родителю */
-    height: 200px;
-    overflow: hidden;
-}
+.imgCenter {text-align:center;}
