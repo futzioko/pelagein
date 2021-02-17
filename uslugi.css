@@ -11,4 +11,7 @@ h1 {
     color: pink;
 }
 
-.imgCenter {display:block; margin:0 auto;}
+.imgCenter {display: block;
+max-width: 100%;
+height: auto;
+}
