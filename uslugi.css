@@ -12,9 +12,10 @@ h1 {
 }
 
 .impotrtant{
-display: block;
-    margin-left: auto;
-    margin-right: auto }
-    
-    
+display:flex;
+    justify-content: center; /*центрируем элемент по горизонтали */
+    align-items: center; /* и вертикали */
+    width: 200px; /* задали размеры блоку-родителю */
+    height: 200px;
+    overflow: hidden;
 }
