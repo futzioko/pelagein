@@ -12,6 +12,5 @@ h1 {
 }
 
 .imgCenter {display: block;
-max-width: 100%;
-height: auto;
+margin-left: 100px;
 }
