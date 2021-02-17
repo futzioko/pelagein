@@ -11,4 +11,4 @@ h1 {
     color: pink;
 }
 
-.imgCenter {text-align:center;}
+.imgCenter {display:block; margin:0 auto;}
